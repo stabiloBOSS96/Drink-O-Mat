@@ -3,9 +3,10 @@ import pigpio
 
 pi = pigpio.pi()
 
+
 class Pump:
     def __init__(self, pumpGpio):
-        pi.set_mode( pumpGpio,  pi.OUTPUT)
+        pi.set_mode(pumpGpio, pi.OUTPUT)
         self.PUMP_GPIO = pumpGpio
 
     def run(self, sec):
