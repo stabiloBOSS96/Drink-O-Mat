@@ -1,11 +1,15 @@
 pumps = {
-    "pump_1": 5,
-    "pump_2": 5
+    "pump_1": 16,
+    "pump_2": 20
 }
 
 setups = {
     "clean_duration": 7,
     "reference_ml_per_sec": 50
+}
+
+buttons = {
+    "button1": 21
 }
 
 drinks = {
