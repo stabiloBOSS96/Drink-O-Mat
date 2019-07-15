@@ -7,6 +7,10 @@ from Button import *
 pfeffi_button = Button(config.buttons["button1"])
 while True:
     if pfeffi_button.read_value() == 1:
-        print("cola_button pressed")
+        print("Please wait...")
+        print("Pfeffi processed...")
         Barkeeper.mix_drink("pfeffi")
+
+
+Barkeeper.clean()
         
