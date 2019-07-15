@@ -25,6 +25,12 @@ drinks = {
             "pump_1": 5,
             "pump_2": 1
         }
+    "pfeffi": {
+        "displayName": 'Pfeffi',
+        "receipt":{
+            "pump_1": 2
+            }
+                }
     }
 }
 glass = {
