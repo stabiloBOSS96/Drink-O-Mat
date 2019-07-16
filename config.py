@@ -1,7 +1,7 @@
 pumps = {
     "pump_1": 16,  # pfeffi
-    "pump_2": 20,  # jacky
-    "pump_3": 21  # cola
+    "pump_2": 20,  # cola
+    "pump_3": 21  # jacky
 }
 
 setups = {
@@ -19,21 +19,20 @@ drinks = {
     "cola": {
         "displayName": 'Coca Cola',
         "receipt": {
-            "pump_3": 5
+            "pump_2": .8*15
         }
     },
     "jacky_cola": {
         "displayName": 'Jacky Cola',
         "receipt": {
-            "pump_2": 1,
-            "pump_3": 5
+            "pump_3": .8*5,
+            "pump_2": .8*15            
         }
     },
     "pfeffi": {
         "displayName": 'Pfeffi',
         "receipt": {
-            "pump_1": 2,
-            "pump_2": 2
+            "pump_1": 1.6
         }
     }
 }
