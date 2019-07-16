@@ -30,7 +30,8 @@ drinks = {
     "pfeffi": {
             "displayName": 'Pfeffi',
             "receipt": {
-                "pump_1": 2
+                "pump_1": 2,
+                "pump_2": 2
             }
         }
 }
