@@ -15,6 +15,6 @@ class Lamp:
     def blink(self):
         for i in range (5):
             self.on()
-            time.sleep(.5)
+            time.sleep(1)
             self.off()
-            time.sleep(.5)
+            time.sleep(1)

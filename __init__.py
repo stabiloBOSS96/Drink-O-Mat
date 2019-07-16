@@ -7,9 +7,8 @@ from Lamp import *
 pfeffi_button = Button(config.buttons["button1"])
 cola_button = Button(config.buttons["button3"])
 jackycola_button = Button(config.buttons["button2"])
-Lamp().blink()
 
-print("""/
+print("""
  ____       _       _          ___        __  __       _   
 |  _ \ _ __(_)_ __ | | __     / _ \      |  \/  | __ _| |_ 
 | | | | '__| | '_ \| |/ /____| | | |_____| |\/| |/ _` | __|
@@ -30,9 +29,10 @@ print("""/
                                                                                                          
 
 """)
+Lamp().off()
+Lamp().blink()
 
 while True:
-    Lamp().on()
     if pfeffi_button.read_value() == 1:
         Lamp().off()
         print("Please wait...")
@@ -53,7 +53,3 @@ while True:
         print("Jacky cola processed...")
         Barkeeper.mix_drink("jacky_cola")
         print("Here you are")
-
-
-#Barkeeper.clean()
-        
