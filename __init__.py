@@ -33,6 +33,7 @@ Lamp().off()
 Lamp().blink()
 
 while True:
+    Lamp().on()
     if pfeffi_button.read_value() == 1:
         Lamp().off()
         print("Please wait...")
