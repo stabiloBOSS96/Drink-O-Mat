@@ -1,2 +1,2 @@
 # Drink-O-Mat
-## Upgrade your festival
+## Upgrade your Pre-Game
