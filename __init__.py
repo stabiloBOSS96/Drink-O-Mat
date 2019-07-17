@@ -39,14 +39,14 @@ while True:
         print("Pfeffi processed...")
         Barkeeper.mix_drink("pfeffi")
         print("Here you are")
-
+            
     if cola_button.read_value() == 1:
         Lamp().off()
         print("Please wait...")
         print("Cola processed...")
         Barkeeper.mix_drink("cola")
         print("Here you are")
-
+    
     if jackycola_button.read_value() == 1:
         Lamp().off()
         print("Please wait...")
@@ -56,3 +56,4 @@ while True:
 
 
 #Barkeeper.clean()
+        
